@@ -1,0 +1,13 @@
+root = true
+
+# everything other than .go files should have the same adherence
+[*]
+charset = utf-8
+indent_size = 2
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+
+# ignore rust src files - let rustfmt do work
+[/src/**]
+indent_size = 4
